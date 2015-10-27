@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LoadTests>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/MvcMovie/movie/edit?id=4"/>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/MvcMovie"/>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/MvcMovie/Movie/SearchIndex?dbName=MySQL"/>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/MvcMovie/Movie/Details/2"/>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/MvcMovie/Movie/Details/5"/>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/MvcMovie/movie/SearchIndex?movieGenre=Action&amp;SearchString=a"/>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/SqlError/Sql"/>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/SqlError/Sql/InvalidLogin"/>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/SqlError/Sql/InvalidMachine"/>
+  <Test Time="315360000" Count="1051200" ConcurrentUsers="200" Url="http://app-win8-64/SqlError/Home/Contact"/>
+</LoadTests>
